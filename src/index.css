@@ -1,0 +1,135 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+
+.box-1 {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  color: white;
+  display: grid;
+  justify-items: center;
+  padding: 2.5rem; 
+  border-radius: 0.5rem; 
+  background: linear-gradient(125.07deg, rgba(99, 46, 227, 1), rgba(159, 98, 242, 1) 100%);
+  overflow: hidden;
+}
+
+
+.box-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 200px; 
+  background: url('assets/vector-1.png') no-repeat left top / 150px 200px;
+}
+
+
+.box-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 200px;
+  background: url('assets/vector-1.png') no-repeat right top / 150px 200px;
+  transform: scaleX(-1); 
+}
+
+.box-2 {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  color: white;
+  display: grid;
+  justify-items: center;
+  padding: 2.5rem; 
+  border-radius: 0.5rem; 
+  background: linear-gradient(125.07deg, #54CF68, #00827A 100%);
+  overflow: hidden;
+}
+
+
+.box-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 200px; 
+  background: url('assets/vector-1.png') no-repeat left top / 150px 200px;
+}
+
+
+.box-2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 200px;
+  background: url('assets/vector-1.png') no-repeat right top / 150px 200px;
+  transform: scaleX(-1); 
+}
+
+
+.box-2::h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.play {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.play-2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  border: navy;
+  display: flex;
+  height: 148px;
+  width: 513pxS;
+}
+
+.high-priority {
+  color: red;
+  font-weight: bold;
+}
+.high-priority-1 {
+  color: #FEBB0C;
+  font-weight: bold;
+}
+.high-priority-2 {
+  color: #02A53B;
+  font-weight: bold;
+}
+.body-1 {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  
+  
+}
+.box-3 {
+ text-decoration: none;
+}
+.card-1 {
+  background: linear-gradient(125.07deg, #c9cf54, #00827A 100%);
+}
